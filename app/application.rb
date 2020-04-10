@@ -3,4 +3,6 @@ class Application
   def call(env)
     resp = Rack::Response.new 
     
-    time = 
+    time = Time.now.hour 
+    
+    
